@@ -32,7 +32,7 @@
 
             # Activate the venv
             source "$VENV_DIR/bin/activate"
-            pip install -r requirements.txt
+            pip install -q -r requirements.txt
           '';
       };
     }
